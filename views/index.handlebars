@@ -1,0 +1,42 @@
+<div class="title"><img src="https://fontmeme.com/permalink/181116/9204e90e1b88a8af688563a6a616f3e0.png" alt="netflix-font" border="0"></div>
+
+<div class="list">
+  <ul id="menu" style="list-style-type: none">
+  
+  <div class="watch">
+    <h3>SHOWS TO WATCH</h3>  
+
+    {{#each shows}}
+      {{#unless liked}}
+        {{> shows/show-block liked=true}}
+      {{/unless}}
+    {{/each}}
+    
+  </div>
+
+  <div class="watched">
+    <h3>SHOWS LIKED</h3>
+
+    {{#each shows}}
+      {{#if liked}}
+        {{> shows/show-block liked=false}}
+      {{/if}}
+    {{/each}}
+
+  </div>
+
+  </ul>
+  </div>
+
+<form class="create-form">
+  <div class="form-group">
+    
+    <div class="submit">
+      <button type="submit">ADD SHOW</button>
+    </div>
+
+    <input type="text" id="ca" name="name">
+    <br>
+  
+  </div>
+</form>

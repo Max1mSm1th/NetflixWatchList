@@ -1,0 +1,75 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to left, rgba(0,0,0,0),white, white), url("http://www.aonecomputer.com/wp-content/uploads/2018/07/netflix.jpg");
+}
+
+.title {
+  position: absolute;
+  left: 4%;
+  top: 8%;
+}
+
+.fa-thumbs-down {
+  color: red;
+}
+
+.fa-thumbs-up {
+  color: red;
+}
+
+li {
+  position: relative;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  width: fit-content;
+  background: #faebd7;
+  border-radius: 8px;
+  background-color: rgb(233, 53, 53);
+  color: white;
+}
+
+.list {
+  position: absolute;
+  top: 25%;
+  left: 1.5%;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  position: absolute;
+  left: 5%;
+  bottom: 8%;
+  margin-bottom: 2px;
+  color: rgb(134, 134, 134)
+}
+
+.submit {
+  margin: 0px 0px 8px 0px;
+  width: fit-content;
+  padding: 0px;
+  color: rgb(255, 191, 191);
+}
+
+ul#menu li {
+  float: left;
+}
+
+.watched {
+  float: left;
+  position: relative;
+  margin-top: 10px;
+  width: 100%;
+}
+
+h3 {
+  color: rgb(134, 134, 134)
+}
+
+#ca {
+  background-color: rgb(252, 188, 188);
+  border-radius: 20px;
+  padding: 7px;
+}
+
