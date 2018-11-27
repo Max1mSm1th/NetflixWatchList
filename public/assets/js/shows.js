@@ -1,5 +1,5 @@
 $(function() {
-  $(".viewed").on("click", function(event) {
+  $(".liked").on("click", function(event) {
     var id = $(this).data("id");
     var newLiked = $(this).data("newLiked");
 

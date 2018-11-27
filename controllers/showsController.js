@@ -29,9 +29,13 @@ var show = require("../models/show");
     var condition = "id = " + req.params.id;
 
     console.log("condition", condition);
+    console.log(req.body);
+
+
 
     show.update({
-      liked: req.body.liked
+      
+      liked: false
     }, condition, function(result) {
       if (result.changedRows == 0) {
         return res.status(404).end();

@@ -5,6 +5,5 @@ CREATE TABLE shows (
 	id INT AUTO_INCREMENT NOT NULL,
 	name varchar (255) NOT NULL,
 	liked BOOLEAN DEFAULT false,
-	createdAt TIMESTAMP NOT NULL,
 	PRIMARY KEY (id)
 );
